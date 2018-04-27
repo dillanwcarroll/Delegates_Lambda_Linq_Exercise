@@ -2,16 +2,17 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 using FileParserNetStandard;
+using ObjectLibrary;
 
 namespace FileParserNetStandard_Tests {
     [TestFixture]
     public class Tests {
         private FileHandler _fh;
         private DataParser _dp;
-        private string _csvPath = "/Users/anguyen/Documents/Rider/data.csv";  // change to appropriate path
-        private string _tsvPath = "/Users/anguyen/Documents/Rider/data.tsv";  // change to appropriate path
+        private string _csvPath = "/Users/New/Desktop/Wk7/data.csv";  // change to appropriate path
+        private string _tsvPath = "/Users/New/Desktop/Wk7/data.tsv";  // change to appropriate path
 
-        private string _writeFile = "/Users/anguyen/Documents/Rider/dataWrite.txt";  // change to appropriate path
+        private string _writeFile = "/Users/New/Desktop/Wk7/dataWrite.txt";  // change to appropriate path
        
         private List<List<string>> _data;
 
